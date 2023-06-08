@@ -1,11 +1,11 @@
 [package]
-name = "item_configurator_sqlite_accessor"
+name = "eve_item_configurator_sqlite_accessor"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-item_configurator_server = { git = "https://github.com/WiggidyW/eve_item_configurator_server_rs.git" }
+eve_item_configurator_server = { git = "https://github.com/WiggidyW/eve_item_configurator_server_rs.git" }
 sqlx = { version = "0.6.3", features = ["sqlite", "runtime-tokio-native-tls"] }
 futures = { version = "0.3.28" }

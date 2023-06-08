@@ -4,7 +4,7 @@ use super::{
     queries,
 };
 
-use item_configurator_server::{
+use eve_item_configurator_server::{
     MarketGroupGetter,
     CategoryGetter,
     TypeIdGetter,
